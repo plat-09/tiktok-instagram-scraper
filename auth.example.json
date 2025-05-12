@@ -1,0 +1,5 @@
+[
+    {"name": "cookie_name", "value": "your_cookie_value"},
+    {"name": "another_cookie", "value": "your_cookie_value"},
+    {"name": "IGSession", "value": "your_session_value"}
+]
