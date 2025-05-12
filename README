@@ -15,25 +15,25 @@ Python-скрипт для сбора статистики с TikTok и Instagra
    ```bash
    git clone https://github.com/plat-09/tiktok-instagram-scraper.git
    cd tiktok-instagram-scraper
-    ```
+    
 
 2. Установите зависимости:
     ```bash
     python -m venv venv
     source venv/bin/activate  # или .\venv\Scripts\activate на Windows
     pip install -r requirements.txt
-    ```
+    
 3. Установите Playwright:
    ```bash
    playwright install
    # или только Chromium:
    playwright install chromium
-    ```
+    
 
-4.	Настройте переменные окружения:
-	Создайте файл .env на основе .env.example:
+4. Настройте переменные окружения:
+   Создайте файл .env на основе .env.example:
 
-5.	Подготовьте файлы creds.json и auth.json на основе creds.example.json и auth.example.json.
+5. Подготовьте файлы creds.json и auth.json на основе creds.example.json и auth.example.json.
 
 📦 Запуск
 
