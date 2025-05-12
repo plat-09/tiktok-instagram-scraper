@@ -12,24 +12,23 @@ Python-скрипт для сбора статистики с TikTok и Instagra
 ## 🚀 Установка
 
 1. Клонируйте репозиторий:
-   ```bash
+
    git clone https://github.com/plat-09/tiktok-instagram-scraper.git
    cd tiktok-instagram-scraper
     
 
 2. Установите зависимости:
-    ```bash
+
     python -m venv venv
     source venv/bin/activate  # или .\venv\Scripts\activate на Windows
     pip install -r requirements.txt
     
 3. Установите Playwright:
-   ```bash
+
    playwright install
    # или только Chromium:
    playwright install chromium
     
-
 4. Настройте переменные окружения:
    Создайте файл .env на основе .env.example:
 
@@ -41,5 +40,5 @@ python scraper.py
 
 
 ⚠️ Важно
-	•	Никогда не размещайте реальные creds.json, auth.json или .env в публичных репозиториях.
-	•	Instagram Reels поддержка в процессе разработки.
+- Никогда не размещайте реальные creds.json, auth.json или .env в публичных репозиториях.
+- Instagram Reels поддержка в процессе разработки.
