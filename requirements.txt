@@ -22,3 +22,4 @@ six==1.17.0
 soupsieve==2.7
 typing_extensions==4.13.2
 urllib3==2.4.0
+python-dotenv
